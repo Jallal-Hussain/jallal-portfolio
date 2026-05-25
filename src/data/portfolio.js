@@ -156,7 +156,7 @@ export const PROJECTS = [
     repo: 'https://github.com/Jallal-Hussain/Hope_to_skills_Python_Project',
     live: null,
     image:
-      'https://opengraph.githubassets.com/1/Jallal-Hussain/Hope_to_skills_Python_Project',
+      'https://raw.githubusercontent.com/Jallal-Hussain/Hope_to_skills_Python_Project/main/Landing.png',
     imageAlt: 'CAG RAG project preview',
   },
   {
@@ -193,7 +193,7 @@ export const PROJECTS = [
     tags: ['TypeScript', 'Recharts.js', 'Tailwind CSS', 'ShadCN UI', 'Next.js 16'],
     repo: 'https://github.com/Jallal-Hussain/Library-Management-System',
     live: null,
-    image: 'https://opengraph.githubassets.com/1/Jallal-Hussain/Library-Management-System',
+    image: 'https://raw.githubusercontent.com/Jallal-Hussain/Library-Management-System/main/screenshots/Landing.jpg',
     imageAlt: 'Library management project preview',
   },
   {
