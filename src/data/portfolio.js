@@ -37,7 +37,7 @@ export const HERO = {
   ],
   directCta: 'Or skip the tour; talk to Jalal directly',
   directLink: '#contact',
-  priorityNote: 'Email · reply within 24–48 hrs',
+  priorityNote: 'Email · reply within 24-48 hrs',
   priorityHref: 'mailto:jalal143880@gmail.com',
 }
 
@@ -60,9 +60,9 @@ export const METRICS = [
 ]
 
 export const EXPERIENCE_STRIP = [
-  { role: 'MERN Stack Developer', org: 'NetBots', period: 'Mar 2025 – Oct 2025' },
-  { role: 'MERN Stack Intern', org: 'NetBots', period: 'Jun 2024 – Dec 2024' },
-  { role: 'BS Computer Science', org: 'University of Baltistan', period: '2023 – Present' },
+  { role: 'MERN Stack Developer', org: 'NetBots', period: 'Mar 2025 - Oct 2025' },
+  { role: 'MERN Stack Intern', org: 'NetBots', period: 'Jun 2024 - Dec 2024' },
+  { role: 'BS Computer Science', org: 'University of Baltistan', period: '2023 - Present' },
   { role: 'Client delivery', org: 'Tour & travel · RAG · Admin', period: 'Shipped' },
 ]
 
@@ -154,7 +154,7 @@ export const PROJECTS = [
       'FastAPI backend with PDF upload, extraction, LLM conversational AI, auth, document management, and summarization.',
     tags: ['FastAPI', 'Python', 'React', 'LLM', 'RAG'],
     repo: 'https://github.com/Jallal-Hussain/Hope_to_skills_Python_Project',
-    live: 'https://awfera-project.vercel.app',
+    live: null,
     image:
       'https://opengraph.githubassets.com/1/Jallal-Hussain/Hope_to_skills_Python_Project',
     imageAlt: 'CAG RAG project preview',
@@ -166,9 +166,9 @@ export const PROJECTS = [
     description:
       'First client tour agency — Home, Tours, Blogs, About, Contact — Next.js UI with Express/MongoDB and VPS deployment.',
     tags: ['Next.js', 'Tailwind', 'Express', 'MongoDB'],
-    repo: 'https://github.com/Jallal-Hussain/NextJs_project',
-    live: null,
-    image: 'https://opengraph.githubassets.com/1/Jallal-Hussain/NextJs_project',
+    repo: null,
+    live: 'https://tourmakerpakistan.com',
+    image: 'https://opengraph.githubassets.com/1/NETBOTS-IO/TourMaker',
     imageAlt: 'Tour agency project preview',
   },
   {
@@ -183,6 +183,18 @@ export const PROJECTS = [
     image:
       'https://raw.githubusercontent.com/Jallal-Hussain/Face-Recognition-Attendance-System/main/images/gradio_interface.jpg',
     imageAlt: 'Face recognition Gradio UI',
+  },
+  {
+    id: 'lms',
+    title: 'Library Management System',
+    category: 'MERN Capstone',
+    description:
+      'This project showcases a comprehensive LMS frontend: A fully client-side demo of a modern library management system built with Next.js App Router, Tailwind CSS (shadcn-style UI), and mock data/auth.',
+    tags: ['TypeScript', 'Recharts.js', 'Tailwind CSS', 'ShadCN UI', 'Next.js 16'],
+    repo: 'https://github.com/Jallal-Hussain/Library-Management-System',
+    live: null,
+    image: 'https://opengraph.githubassets.com/1/Jallal-Hussain/Library-Management-System',
+    imageAlt: 'Library management project preview',
   },
   {
     id: 'hotel',
@@ -203,7 +215,7 @@ export const EXPERIENCE = [
     id: 'netbots-dev',
     role: 'MERN Stack Developer',
     company: 'NetBots',
-    period: 'Mar 2025 – Oct 2025',
+    period: 'Mar 2025 - Oct 2025',
     type: 'Enterprise & client delivery',
     bullets: [
       'Built and shipped full-stack MERN applications with Express REST APIs, MongoDB schemas, and React/Next.js frontends.',
@@ -215,7 +227,7 @@ export const EXPERIENCE = [
     id: 'netbots-intern',
     role: 'MERN Stack Developer Internship',
     company: 'NetBots',
-    period: 'Jun 2024 – Dec 2024',
+    period: 'Jun 2024 - Dec 2024',
     type: 'Certification & capstones',
     bullets: [
       'Completed NetBots MERN Stack Web Development programme with production-style projects.',
@@ -226,7 +238,7 @@ export const EXPERIENCE = [
 ]
 
 export const CERTIFICATIONS = [
-  { name: 'Basic Python Development', issuer: 'Hope to Skills', date: 'Apr 2025' },
+  { name: 'Basic Python Development for AI/ML', issuer: 'Hope to Skills', date: 'Apr 2025' },
   { name: 'MERN Stack Front to Back', issuer: 'Coursera', date: 'Feb 2025' },
   { name: 'MERN Stack Web Development', issuer: 'NetBots', date: 'Apr 2024' },
   {
@@ -299,7 +311,7 @@ export const PERSONAS = {
 
 export const SKILLS = [
   'React', 'Next.js', 'Node.js', 'Express', 'FastAPI', 'Python',
-  'MongoDB', 'PostgreSQL', 'LLM', 'RAG', 'Deep Learning', 'Git', 'VPS',
+  'MongoDB', 'MySQL', 'PostgreSQL', 'LLM', 'RAG', 'Deep Learning', 'Git', 'VPS',
 ]
 
 export const FOOTER = {
