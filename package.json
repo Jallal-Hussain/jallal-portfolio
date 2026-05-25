@@ -1,0 +1,21 @@
+{
+  "name": "jalal-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/generate-resume-pdf.mjs && vite build",
+    "preview": "vite preview",
+    "resume:pdf": "node scripts/generate-resume-pdf.mjs"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.5.2",
+    "pdf-lib": "^1.17.1",
+    "vite": "^6.3.5"
+  }
+}
