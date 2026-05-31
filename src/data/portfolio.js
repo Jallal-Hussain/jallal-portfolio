@@ -191,7 +191,7 @@ export const PROJECTS = [
     description:
       'This project showcases a comprehensive LMS frontend: A fully client-side demo of a modern library management system built with Next.js App Router, Tailwind CSS (shadcn-style UI), and mock data/auth.',
     tags: ['TypeScript', 'Recharts.js', 'Tailwind CSS', 'ShadCN UI', 'Next.js 16'],
-    repo: 'https://github.com/Jallal-Hussain/Library-Management-System',
+    repo: 'https://library-management-system-v1.vercel.app/',
     live: null,
     image: 'https://raw.githubusercontent.com/Jallal-Hussain/Library-Management-System/main/screenshots/Landing.jpg',
     imageAlt: 'Library management project preview',
